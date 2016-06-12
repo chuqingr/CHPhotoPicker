@@ -9,11 +9,32 @@
 /* Begin PBXBuildFile section */
 		B0A78C2C1D081A020000D18E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C2B1D081A020000D18E /* AppDelegate.swift */; };
 		B0A78C2E1D081A020000D18E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C2D1D081A020000D18E /* ViewController.swift */; };
-		B0A78C311D081A020000D18E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A78C2F1D081A020000D18E /* Main.storyboard */; };
 		B0A78C331D081A020000D18E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A78C321D081A020000D18E /* Assets.xcassets */; };
 		B0A78C361D081A020000D18E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A78C341D081A020000D18E /* LaunchScreen.storyboard */; };
 		B0A78C411D081A020000D18E /* CHPhotoPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C401D081A020000D18E /* CHPhotoPickerTests.swift */; };
 		B0A78C4C1D081A020000D18E /* CHPhotoPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C4B1D081A020000D18E /* CHPhotoPickerUITests.swift */; };
+		B0A78C671D081A330000D18E /* CHImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C5A1D081A330000D18E /* CHImage.swift */; };
+		B0A78C681D081A330000D18E /* CHAlubmsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C5C1D081A330000D18E /* CHAlubmsCell.swift */; };
+		B0A78C691D081A330000D18E /* CHCameraImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C5D1D081A330000D18E /* CHCameraImageView.swift */; };
+		B0A78C6A1D081A330000D18E /* CHCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C5E1D081A330000D18E /* CHCameraView.swift */; };
+		B0A78C6B1D081A330000D18E /* CHImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C5F1D081A330000D18E /* CHImageCell.swift */; };
+		B0A78C6C1D081A330000D18E /* CHSelectedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C601D081A330000D18E /* CHSelectedImageCell.swift */; };
+		B0A78C6D1D081A330000D18E /* CHCameraPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C621D081A330000D18E /* CHCameraPickerViewController.swift */; };
+		B0A78C6E1D081A330000D18E /* CHPhotoPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C631D081A330000D18E /* CHPhotoPickerController.swift */; };
+		B0A78C701D081A330000D18E /* CHPhotoDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C661D081A330000D18E /* CHPhotoDatas.swift */; };
+		B0A78C7E1D081BF20000D18E /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C721D081BF20000D18E /* Constraint.swift */; };
+		B0A78C7F1D081BF20000D18E /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C731D081BF20000D18E /* ConstraintAttributes.swift */; };
+		B0A78C801D081BF20000D18E /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C741D081BF20000D18E /* ConstraintDescription.swift */; };
+		B0A78C811D081BF20000D18E /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C751D081BF20000D18E /* ConstraintItem.swift */; };
+		B0A78C821D081BF20000D18E /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C761D081BF20000D18E /* ConstraintMaker.swift */; };
+		B0A78C831D081BF20000D18E /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C771D081BF20000D18E /* ConstraintRelation.swift */; };
+		B0A78C841D081BF20000D18E /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C781D081BF20000D18E /* Debugging.swift */; };
+		B0A78C851D081BF20000D18E /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C791D081BF20000D18E /* EdgeInsets.swift */; };
+		B0A78C861D081BF20000D18E /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C7A1D081BF20000D18E /* LayoutConstraint.swift */; };
+		B0A78C871D081BF20000D18E /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C7B1D081BF20000D18E /* SnapKit.swift */; };
+		B0A78C881D081BF20000D18E /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C7C1D081BF20000D18E /* View+SnapKit.swift */; };
+		B0A78C891D081BF20000D18E /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C7D1D081BF20000D18E /* ViewController+SnapKit.swift */; };
+		B0A78C8B1D081C2E0000D18E /* IHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A78C8A1D081C2E0000D18E /* IHConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +58,6 @@
 		B0A78C281D081A010000D18E /* CHPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A78C2B1D081A020000D18E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A78C2D1D081A020000D18E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B0A78C301D081A020000D18E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0A78C321D081A020000D18E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A78C351D081A020000D18E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A78C371D081A020000D18E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +67,28 @@
 		B0A78C471D081A020000D18E /* CHPhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHPhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A78C4B1D081A020000D18E /* CHPhotoPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHPhotoPickerUITests.swift; sourceTree = "<group>"; };
 		B0A78C4D1D081A020000D18E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A78C5A1D081A330000D18E /* CHImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHImage.swift; sourceTree = "<group>"; };
+		B0A78C5C1D081A330000D18E /* CHAlubmsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHAlubmsCell.swift; sourceTree = "<group>"; };
+		B0A78C5D1D081A330000D18E /* CHCameraImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCameraImageView.swift; sourceTree = "<group>"; };
+		B0A78C5E1D081A330000D18E /* CHCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCameraView.swift; sourceTree = "<group>"; };
+		B0A78C5F1D081A330000D18E /* CHImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHImageCell.swift; sourceTree = "<group>"; };
+		B0A78C601D081A330000D18E /* CHSelectedImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHSelectedImageCell.swift; sourceTree = "<group>"; };
+		B0A78C621D081A330000D18E /* CHCameraPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCameraPickerViewController.swift; sourceTree = "<group>"; };
+		B0A78C631D081A330000D18E /* CHPhotoPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPhotoPickerController.swift; sourceTree = "<group>"; };
+		B0A78C661D081A330000D18E /* CHPhotoDatas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPhotoDatas.swift; sourceTree = "<group>"; };
+		B0A78C721D081BF20000D18E /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		B0A78C731D081BF20000D18E /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		B0A78C741D081BF20000D18E /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		B0A78C751D081BF20000D18E /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		B0A78C761D081BF20000D18E /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		B0A78C771D081BF20000D18E /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		B0A78C781D081BF20000D18E /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		B0A78C791D081BF20000D18E /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		B0A78C7A1D081BF20000D18E /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		B0A78C7B1D081BF20000D18E /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		B0A78C7C1D081BF20000D18E /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		B0A78C7D1D081BF20000D18E /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		B0A78C8A1D081C2E0000D18E /* IHConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IHConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +139,14 @@
 		B0A78C2A1D081A010000D18E /* CHPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
+				B0A78C711D081BF20000D18E /* SnapKit */,
+				B0A78C591D081A330000D18E /* Model */,
+				B0A78C5B1D081A330000D18E /* View */,
+				B0A78C611D081A330000D18E /* ViewController */,
+				B0A78C651D081A330000D18E /* ViewModel */,
+				B0A78C8A1D081C2E0000D18E /* IHConfig.swift */,
 				B0A78C2B1D081A020000D18E /* AppDelegate.swift */,
 				B0A78C2D1D081A020000D18E /* ViewController.swift */,
-				B0A78C2F1D081A020000D18E /* Main.storyboard */,
 				B0A78C321D081A020000D18E /* Assets.xcassets */,
 				B0A78C341D081A020000D18E /* LaunchScreen.storyboard */,
 				B0A78C371D081A020000D18E /* Info.plist */,
@@ -123,6 +170,63 @@
 				B0A78C4D1D081A020000D18E /* Info.plist */,
 			);
 			path = CHPhotoPickerUITests;
+			sourceTree = "<group>";
+		};
+		B0A78C591D081A330000D18E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0A78C5A1D081A330000D18E /* CHImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0A78C5B1D081A330000D18E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0A78C5C1D081A330000D18E /* CHAlubmsCell.swift */,
+				B0A78C5D1D081A330000D18E /* CHCameraImageView.swift */,
+				B0A78C5E1D081A330000D18E /* CHCameraView.swift */,
+				B0A78C5F1D081A330000D18E /* CHImageCell.swift */,
+				B0A78C601D081A330000D18E /* CHSelectedImageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0A78C611D081A330000D18E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B0A78C631D081A330000D18E /* CHPhotoPickerController.swift */,
+				B0A78C621D081A330000D18E /* CHCameraPickerViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B0A78C651D081A330000D18E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B0A78C661D081A330000D18E /* CHPhotoDatas.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0A78C711D081BF20000D18E /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				B0A78C721D081BF20000D18E /* Constraint.swift */,
+				B0A78C731D081BF20000D18E /* ConstraintAttributes.swift */,
+				B0A78C741D081BF20000D18E /* ConstraintDescription.swift */,
+				B0A78C751D081BF20000D18E /* ConstraintItem.swift */,
+				B0A78C761D081BF20000D18E /* ConstraintMaker.swift */,
+				B0A78C771D081BF20000D18E /* ConstraintRelation.swift */,
+				B0A78C781D081BF20000D18E /* Debugging.swift */,
+				B0A78C791D081BF20000D18E /* EdgeInsets.swift */,
+				B0A78C7A1D081BF20000D18E /* LayoutConstraint.swift */,
+				B0A78C7B1D081BF20000D18E /* SnapKit.swift */,
+				B0A78C7C1D081BF20000D18E /* View+SnapKit.swift */,
+				B0A78C7D1D081BF20000D18E /* ViewController+SnapKit.swift */,
+			);
+			name = SnapKit;
+			path = ../SnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +297,7 @@
 				TargetAttributes = {
 					B0A78C271D081A010000D18E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G7YYV9K7LC;
 					};
 					B0A78C3B1D081A020000D18E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -231,7 +336,6 @@
 			files = (
 				B0A78C361D081A020000D18E /* LaunchScreen.storyboard in Resources */,
 				B0A78C331D081A020000D18E /* Assets.xcassets in Resources */,
-				B0A78C311D081A020000D18E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +360,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A78C861D081BF20000D18E /* LayoutConstraint.swift in Sources */,
+				B0A78C7E1D081BF20000D18E /* Constraint.swift in Sources */,
+				B0A78C6A1D081A330000D18E /* CHCameraView.swift in Sources */,
+				B0A78C831D081BF20000D18E /* ConstraintRelation.swift in Sources */,
+				B0A78C6D1D081A330000D18E /* CHCameraPickerViewController.swift in Sources */,
+				B0A78C6B1D081A330000D18E /* CHImageCell.swift in Sources */,
+				B0A78C851D081BF20000D18E /* EdgeInsets.swift in Sources */,
+				B0A78C6E1D081A330000D18E /* CHPhotoPickerController.swift in Sources */,
+				B0A78C821D081BF20000D18E /* ConstraintMaker.swift in Sources */,
+				B0A78C801D081BF20000D18E /* ConstraintDescription.swift in Sources */,
+				B0A78C681D081A330000D18E /* CHAlubmsCell.swift in Sources */,
+				B0A78C6C1D081A330000D18E /* CHSelectedImageCell.swift in Sources */,
+				B0A78C841D081BF20000D18E /* Debugging.swift in Sources */,
+				B0A78C891D081BF20000D18E /* ViewController+SnapKit.swift in Sources */,
+				B0A78C871D081BF20000D18E /* SnapKit.swift in Sources */,
 				B0A78C2E1D081A020000D18E /* ViewController.swift in Sources */,
+				B0A78C8B1D081C2E0000D18E /* IHConfig.swift in Sources */,
 				B0A78C2C1D081A020000D18E /* AppDelegate.swift in Sources */,
+				B0A78C691D081A330000D18E /* CHCameraImageView.swift in Sources */,
+				B0A78C671D081A330000D18E /* CHImage.swift in Sources */,
+				B0A78C7F1D081BF20000D18E /* ConstraintAttributes.swift in Sources */,
+				B0A78C881D081BF20000D18E /* View+SnapKit.swift in Sources */,
+				B0A78C701D081A330000D18E /* CHPhotoDatas.swift in Sources */,
+				B0A78C811D081BF20000D18E /* ConstraintItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +419,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B0A78C2F1D081A020000D18E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0A78C301D081A020000D18E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B0A78C341D081A020000D18E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -401,10 +519,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CHPhotoPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = share.CHPhotoPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +533,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CHPhotoPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = share.CHPhotoPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
